@@ -6,21 +6,21 @@ import Square from "./Square.jsx";
 function Board() {
   return(
     <>
-    <div className="board-row">
-      <Square value="X" />
-      <Square value="O" />
-      <Square value="X" />
-    </div>
-    <div className="board-row">
-      <Square value="X" />
-      <Square value="O" />
-      <Square value="X" />
-    </div>
-    <div className="board-row">
-      <Square value="X" />
-      <Square value="O" />
-      <Square value="X" />
-    </div>
+      <div className="board-row">
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div className="board-row">
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div className="board-row">
+        <Square />
+        <Square />
+        <Square />
+      </div>
     </>
   );
 }
